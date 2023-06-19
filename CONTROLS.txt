@@ -1,0 +1,49 @@
+     Movement
+===================
+UP_ARROW / W / I = UP
+LEFT_ARROW / A / J = LEFT
+DOWN_ARROW / S / K = DOWN
+RIGHT_ARROW / D / L = RIGHT
+
+      General
+===================
+Q = SAVE & QUIT GAME
+
+    Difficulties
+====================
+Score increase is how much speed you get per apple, the higher the difficulty the more score increase.
+
+Right click on "owo snek.py" and do "Open with Notepad++". Once it is loaded, go to Line 36. It will show all difficulties and
+their score increase. Line 36 should be the current difficulty, edit the string (anything inside "").
+You MUST keep all capitals the same to the difficulty you want or it will not work!
+
+To add a difficulty add it like so from line 24:
+difficulties = {
+	"CUSTOM_DIFF_NAME": SCORE_INCREASE # e.g EASY difficulty has 1 score increase.
+}
+
+The suggested difficulty in game is NORMAL, HARD, or INSANE as the ones after are designed to be unbeatable for
+fun.
+
+Also, in game you can use [ or ] to increase/decrease the score increase in the middle of a game, however this will override your
+difficulty to "Custom"
+
+    Save & Load
+====================
+Your save data is located in "save.json". Please do not move, rename or rewrite any of that data, for
+multiple reasons;
+	1. You may break the save (Not fixable without knowledge of the save data method.)
+	2. If it is moved or renamed the script will not be able to find the save file, it is only searching for
+	   "save.json"
+	3. If you do wish to rewrite it, please consult someone who does understand the save data, however
+	   your best bet is probably me (Jasper) as I made the game
+	4. Some things may be able to be rewritten easily (Score, Fruit Location, Speed or Direction) but please
+	   refrain from doing so, the game is designed to be fun and cheating ruins the game.
+
+When you press Q in the middle of a game, your data will save, however if you lose a match at any time your
+save will be overwritten to the default and be random once more.
+
+Difficulty does NOT save however it will tell you if your difficulty is different from the one you last played the
+save with.
+
+To load the game simply boot up the game, and it will load automatically!
