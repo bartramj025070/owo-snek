@@ -1,0 +1,1 @@
+{"fruit": {"x": 350, "y": 140}, "difficulty": "NORMAL", "score": 0, "snake": {"speed": 10, "position": [100, 50], "body": [[100, 50], [90, 50], [80, 50], [70, 50]], "direction": "RIGHT"}}
