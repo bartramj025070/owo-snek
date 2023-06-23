@@ -3,10 +3,10 @@
 *v3.0.3*
 
 *Table of contents*
-* [Movement](14)
-* [General Controls](21)
-* [Difficulties](25)
-* [Save & Load](44)
+* Movement
+* General Controls
+* Difficulties
+* Save & Load
 
 owo-snek is a saveable snake python game, easily able to run. it features:
 * Difficulties
@@ -14,16 +14,16 @@ owo-snek is a saveable snake python game, easily able to run. it features:
 * Save/Load
 ***
 
-     Movement
+#     Movement
 UP_ARROW / W / I = UP<br>
 LEFT_ARROW / A / J = LEFT<br>
 DOWN_ARROW / S / K = DOWN<br>
 RIGHT_ARROW / D / L = RIGHT<br>
 
-      General
+#      General
 Q = SAVE & QUIT GAME
 
-    Difficulties
+#    Difficulties
 Score increase is how much speed you get per apple, the higher the difficulty the more score increase.<br>
 <br>
 Right click on "owo snek.py" and do "Open with Notepad++". Once it is loaded, go to Line 36. It will show all difficulties and<br>
@@ -41,7 +41,7 @@ fun.<br>
 Also, in game you can use [ or ] to increase/decrease the score increase in the middle of a game, however this will override your<br>
 difficulty to "Custom"<br>
 <br>
-    Save & Load
+#     Save & Load
 Your save data is located in "save.json". Please do not move, rename or rewrite any of that data, for<br>
 multiple reasons;<br>
 **1.** You may break the save (Not fixable without knowledge of the save data method.)<br>
@@ -59,3 +59,9 @@ Difficulty does NOT save however it will tell you if your difficulty is differen
 save with.<br>
 <br>
 To load the game simply boot up the game, and it will load automatically!<br>
+#     Crash Reports
+In the event of a crash please, first attempt to run 'fixSave.pyw' and running the game after the 'fixSave.pyw' has
+finished running. You will be notified of this when the 'FixSaveLog.log' file is created and shown!
+
+If there is an error shown, then the file will remain available to read and will not be deleted, and you must contact
+me (Jasper) as soon as possible! This way I will *hopefully* be able to fix the game!
