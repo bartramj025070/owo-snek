@@ -47,3 +47,8 @@ Difficulty does NOT save however it will tell you if your difficulty is differen
 save with.
 
 To load the game simply boot up the game, and it will load automatically!
+
+   Crash Reports
+====================
+In the event of a crash please, first attempt to run 'fixSave.pyw' and running the game after the 'fixSave.pyw' has
+finished running. You will be notified of this when the 'FixSaveLog.log' file is created and shown!
